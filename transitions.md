@@ -28,7 +28,7 @@ div {
 }
 ```
 
-#### Simplest Transition over 0 seconds:
+## Simplest Transition over 0 seconds:
 
 ```css
 a {
@@ -40,7 +40,7 @@ a:hover {
 }
 ```
 
-#### Simplest Transition over 1 second:
+## Simplest Transition over 1 second:
 
 ```css
 a {
@@ -53,7 +53,7 @@ a:hover {
 }
 ```
 
-#### What can be transitioned?
+## What can be transitioned?
 They are working towards all properties being able to transition. For now, if a property can have a middle state, then it can be transitioned. For instance, opacity.
 http://www.pluralsight.com/training/player?author=estelle-weyl&name=css3-in-depth-m11&mode=live&clip=0&course=css3-in-depth
 
