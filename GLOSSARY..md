@@ -1,5 +1,0 @@
-# Glossary
-
-## confused
-
-cofuysedahdsfkla 
