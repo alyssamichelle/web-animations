@@ -3,6 +3,8 @@ To teach not only how to create Animations on the web, but why and when.
 
 **Content Lead: Alyssa Nicoll; Content Reviewer: Jon Friskics**
 
+
+
 ## Course Type & Theme
 There will be two separate apps but structurally the same. One will be used for slides and the other for challenges. All the CSS Animations will be practiced and used in UI elements on the sites.
 
@@ -39,7 +41,7 @@ If a student were to jump into the course without the knowledge of the above cou
     - add/remove class
 
 
-## Executor
+## Executor 
 HTML and CSS will need to be tested in this course.
 - Code Type 1 (HTML)
 - Code Type 2 (CSS)
