@@ -88,3 +88,5 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 
 
 #### Be aware of what is most performant (paul irish article)
+
+Example: http://codepen.io/alyssamichelle/pen/zxexVX?editors=110
