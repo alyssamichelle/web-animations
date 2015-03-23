@@ -10,23 +10,25 @@ CSS transitions provide a way to control animation speed when changing CSS prope
 
 Formal syntax: `[ none | <single-transition-property> ] || <time> || <timing-function> || <time>`
 
-Shorthand syntax:
-
-`animation: <animation-name> <animation-duration> <animation-timing-function> <animation-delay> <animation-iteration-count>`
-
-Real Example:
-`animation: myAnimation 1s ease-in-out 2s 4;`
-
-How to read formal syntax from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax
-
-
-The shorthand CSS syntax is written as follows:
+Shorthand Syntax:
 
 ```css
 div {
     transition: <property> <duration> <timing-function> <delay>;
 }
 ```
+
+Note: Order is irrelevant, as long as you have your duration number specified before you delay.
+
+Real Example:
+`transition: all 2s ease-in-out 1s;`
+
+Note: technically all that *needs* to be specified is the duration. The rest will have defaults, like all, ease, and 0.
+
+Real Example:
+`transition: 2s`
+
+How to read formal syntax from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax
 
 ## Simplest Transition over 0 seconds:
 
@@ -83,3 +85,6 @@ code:hover {
 
 ### List of transitional properties
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+
+
+#### Be aware of what is most performant (paul irish article)
