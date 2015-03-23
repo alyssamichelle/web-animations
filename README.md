@@ -3,7 +3,19 @@ To teach not only how to create Animations on the web, but why and when.
 
 **Content Lead: Alyssa Nicoll; Content Reviewer: Jon Friskics**
 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'web-animations';
 
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 ## Course Type & Theme
 There will be two separate apps but structurally the same. One will be used for slides and the other for challenges. All the CSS Animations will be practiced and used in UI elements on the sites.
@@ -41,7 +53,7 @@ If a student were to jump into the course without the knowledge of the above cou
     - add/remove class
 
 
-## Executor 
+## Executor
 HTML and CSS will need to be tested in this course.
 - Code Type 1 (HTML)
 - Code Type 2 (CSS)
