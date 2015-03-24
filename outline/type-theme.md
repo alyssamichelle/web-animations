@@ -13,8 +13,11 @@ Suggested Course Title: Subtle CSS Animations
 
 ###Example Apps
 The example app will be a site with 2-3 pages. The different elements on each page will be there to support the different types of animations and concepts taught in this course.  Here are some examples of the kinds of things that might be animating on the site:
-button (change gradient)
-- drop down to animate: http://codepen.io/alyssamichelle/pen/JoeeyZ
-- modal to animate in with keyframes (level 1)
+
+- button (change background-color)
+- drop down to animate
+  <p data-height="268" data-theme-id="5377" data-slug-hash="JoeeyZ" data-default-tab="result" data-user="alyssamichelle" class='codepen'>See the Pen <a href='http://codepen.io/alyssamichelle/pen/JoeeyZ/'>JoeeyZ</a> by Alyssa Nicoll (<a href='http://codepen.io/alyssamichelle'>@alyssamichelle</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+- modal to animate in with transitions (level 1)
 - Animating Icons
 - collapsible nav

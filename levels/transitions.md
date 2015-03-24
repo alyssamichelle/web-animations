@@ -30,6 +30,12 @@ Real Example:
 
 How to read formal syntax from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax
 
+### **Vendor Prefixes**
+Briefly mention Vendor Prefixes and how you might be able to use autoprefixer or a build tool like grunt when coding it up on your own at home.
+
+- Ref the docs and canIUse.com
+- Code Pen (uses [autoprefixer](https://github.com/postcss/autoprefixer))
+
 ## Simplest Transition over 0 seconds:
 
 ```css

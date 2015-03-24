@@ -65,9 +65,3 @@ Used to refer to the animation later: `nameOfAnimation`
 ```
 
 As you can see, `from` is equivalent to `0%` and `to` is equivalent to `100%`.
-
-### **Vendor Prefixes**
-Briefly mention Vendor Prefixes and how you might be able to use autoprefixer or a build tool like grunt when coding it up on your own at home.
-
-- Ref the docs and canIUse.com
-- Code Pen (uses autoprefixer)
