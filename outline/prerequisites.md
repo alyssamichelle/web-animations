@@ -10,12 +10,12 @@ If a student were to jump into the course without the knowledge of the above cou
 - HTML Tags
 - Classes
 - Basic CSS
-- positioning
-    - color
-    - bg
-    - size
-    - display
-    - pseudo elements
+  - positioning
+  - color
+  - bg
+  - size
+  - display
+  - pseudo elements
 - JS/jQuery
     - Event Listeners
     - add/remove class
