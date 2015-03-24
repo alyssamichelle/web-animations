@@ -6,4 +6,5 @@ http://www.rikeripsum.com/#!/
 Chrome: http://cl.nicoll.co/aKde
 Firefox: http://cl.nicoll.co/aLGz
 
-# Does this change create a commit on my github account?
+Transitions:
+#### Be aware of what is most performant (paul irish article)

@@ -1,7 +1,9 @@
-# Summary
-
-* [Introduction](README.md)
-   * [Transitions & Transforms](transitions.md)
-   * [Keyframe Animations](keyframes.md)
-   * [SVG Animations](svg.md)
-
+* [Transitions](levels/transitions.md)
+* [Transforms](levels/transforms.md)
+* [Keyframe Animations](levels/keyframes.md)
+* [SVG Animations](levels/svg.md)
+* [Notes](notes.md)
+* [Outline]()
+  * [Course Type & Theme](outline/type-theme.md)
+  * [Prerequisites](outline/prerequisites.md)
+  * [Executor](outline/executor.md)

@@ -87,4 +87,8 @@ code:hover {
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 
 
-#### Be aware of what is most performant (paul irish article)
+### Example: transitioning the color state of a button when it is hovered over.
+Why: Graceful user feedback
+
+<p data-height="268" data-theme-id="5377" data-slug-hash="zxexVX" data-default-tab="result" data-user="alyssamichelle" class='codepen'>See the Pen <a href='http://codepen.io/alyssamichelle/pen/zxexVX/'>Pure CSS animated menu icon</a> by Alyssa Nicoll (<a href='http://codepen.io/alyssamichelle'>@alyssamichelle</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
