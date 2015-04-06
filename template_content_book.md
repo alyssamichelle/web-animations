@@ -80,3 +80,41 @@ everything will be ok though as long as I have:
 
 
 History: might fit in well with the SVG level
+
+
+---
+
+hi!  Sorry I'm just linking to this now, it was a very long afternoon of meetings for me.  Here's that "constraints" document we talked about today for Front-end Foundations https://github.com/codeschool/FrontEndFoundationsCourse/blob/master/content-book/site_reqs.md
+
+For each level, I broke it down into an Overview of what the site would need to contain at a minimum for that level, and then I also split it into Stages, which was just my word for saying "in general, here's the order that I'll introduce this stuff"
+
+it was sort of a wild guess at that point though, and if you compared this to what the final version of the course ended up being there's a few differences.  One of the big ones is that at this early stage I was thinking that Level 1 was an intro to HTML + CSS, but in the final course Level 1 was just HTML and Level 2 was just CSS.
+
+so yeah, just one example of one way to communicate with front-end/design teams so they understand what you need and a really quick "why"
+
+I was looking for examples of that "mini problem" thing we were talking about earlier too and I found one or two other things to point out
+
+first, I found a pretty good mini section in Try jQuery that kind of illustrates what we were talking about.  If you check out Slide 3, the problem is introduced in a little video with some dialogue like "we want to be able to click the Get Price button and have the button replaced with the actual selling price, let's look at how we can do that with a jQuery event handler..."
+
+Then slide 4 starts solving the problem by introducing two concepts with syntax - the first concept is the document.ready, and the second one is the on() function for event handling.  Then slide 5 combines the two together to say "add the on() handler when the document is ready", and then Slide 6 solves the remainder of the problem (append and remove were covered in a previous section)
+
+finally Slide 7 shows the full working example again and the section is over
+
+so yeah, just an example of a pretty natural way that you can sort of combine concepts and syntax together and reveal them one after another over a few slides to solve a problem
+try-jquery-example-1  
+file:///Users/alyssanicoll/Downloads/try-jquery-example1.pdf
+
+here's the slides I'm talking about:
+
+Next, here's another example that sort of matches up with what I was calling the "mini problem"
+try-jquery-example2.pdf  
+file:///Users/alyssanicoll/Downloads/try-jquery-example2.pdf
+
+
+the overall problem here is "how to implement filters for on sale now/expiring soon", and by the end of these 6 slides that problem is solved
+
+but along the way, slides 4 and 5 sort of introduce these smaller separate problems (how do you filter a single element, and how do you chain two methods together) that help with the solution to the overall problem
+
+sorry for the giant wall of text, but check it out tomorrow and let me know if have any quick questions about it!  If you want to talk about it in more detail I should have some time on Friday afternoon after lunch/town hall
+
+----- Yesterday April 2nd, 2015 -----

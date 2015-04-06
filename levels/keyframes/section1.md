@@ -65,3 +65,79 @@ Used to refer to the animation later: `nameOfAnimation`
 ```
 
 As you can see, `from` is equivalent to `0%` and `to` is equivalent to `100%`.
+
+# Form Inputs (more steps)
+## Kuro
+```css
+.input__field:focus,
+.input--filled .input__field {
+	opacity: 1;
+	transition-delay: 0.3s;
+}
+
+.input__field:focus + .input__label::before,
+.input--filled .input__label::before {
+	transform: translate3d(-10%, 0, 0);
+}
+
+.input__field:focus + .input__label::after,
+.input--filled .input__label::after {
+	transform: translate3d(10%, 0, 0);
+}
+
+.input__field:focus + .input__label .input__label-content,
+.input--filled .input__label-content {
+	animation: anim-2 0.3s forwards;
+}
+
+@-webkit-keyframes anim-2 {
+	50% {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 1);
+	}
+	51% {
+		opacity: 0;
+		transform: translate3d(0, 3.7em, 0) scale3d(0.3, 0.3, 1);
+	}
+	100% {
+		opacity: 1;
+		transform: translate3d(0, 3.7em, 0);
+	}
+}
+```
+
+## Madoka
+
+```css
+.input__label-content {
+	transform-origin: 0% 50%;
+	transition: transform 0.3s;
+}
+
+.graphic {
+	transform: scale3d(1, -1, 1);
+	transition: stroke-dashoffset 0.3s;
+	pointer-events: none;
+
+	stroke: #7A7593;
+	stroke-width: 4px;
+	stroke-dasharray: 962;
+	stroke-dashoffset: 558;
+}
+
+.input__field:focus + .input__label,
+.input--filled .input__label {
+	cursor: default;
+	pointer-events: none;
+}
+
+.input__field:focus + .input__label .graphic,
+.input--filled .graphic {
+	stroke-dashoffset: 0;
+}
+
+.input__field:focus + .input__label .input__label-content,
+.input--filled .input__label-content {
+	transform: scale3d(0.81, 0.81, 1) translate3d(0, 4em, 0);
+}
+```
