@@ -16,8 +16,6 @@
     * [Concept 1](levels/transitions/concept_1.md)
     * [Concept 2](levels/transitions/concept_2.md)
 
-* [Transitions](levels/transitions.md)
-* [Transforms](levels/transforms.md)
 * [Keyframe Animations]()
   * [Section 1](levels/keyframes/section1.md)
   * [Section 2](levels/keyframes/section2.md)
