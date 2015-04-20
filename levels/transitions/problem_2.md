@@ -7,12 +7,13 @@ We want to transition multiple properties on this button, to provide prominence 
 ```css
 .button {
   /* Button Color Transition */
-  transition: background-color 0.1s ease, color 0.1s ease;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  color: #92539E;
 }
 
 .button:hover {
   background-color: hsl(0, 0%, 85%);
-  color: hsla(0, 0%, 5%, 0.7);
+  color: #AD7EB6;
 }
 ```
 

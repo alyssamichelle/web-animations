@@ -25,7 +25,7 @@ div {
 
 Formal syntax: `[ none | <single-transition-property> ] || <time> || <timing-function> || <time>`
 
-Note: Order is irrelevant, as long as you have your duration number specified before you delay.
+Note: Order is irrelevant, as long as you have your duration number specified before the delay.
 
 # Recipe Concept
 ### Technically all that *needs* to be specified is the duration. The rest will have defaults, like all, ease, and 0.
