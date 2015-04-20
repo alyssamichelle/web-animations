@@ -10,11 +10,11 @@
 
 * [Section 1: Transform]()
     * [Title](levels/transitions/title.md)
-    * [Problem 1](levels/transitions/problem_1.md)
-    * [Problem 2](levels/transitions/problem_2.md)
-    * [Problem 3](levels/transitions/problem_3.md)
-    * [Concept 1](levels/transitions/concept_1.md)
-    * [Concept 2](levels/transitions/concept_2.md)
+    * [Problem 1](levels/transforms/problem_1.md)
+    * [Problem 2](levels/transforms/problem_2.md)
+    * [Problem 3](levels/transforms/problem_3.md)
+    * [Concept 1](levels/transforms/concept_1.md)
+    * [Concept 2](levels/transforms/concept_2.md)
 
 * [Keyframe Animations]()
   * [Section 1](levels/keyframes/section1.md)
